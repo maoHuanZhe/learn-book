@@ -7,3 +7,10 @@
 5.  优先考虑依赖注入来引用资源
 6.  避免创建不必要的对象
 7.  消除过期的对象引用
+8.  避免使用终结方法和清除方法
+9.  try-with-resources优先于try-finally
+## 对于所有对象都通用的方法
+10. 覆盖equals时请遵循通用约定
+11. 覆盖equals时总要覆盖hashCode
+12. 始终要覆盖toString
+13. 谨慎地覆盖clone
